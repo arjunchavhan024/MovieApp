@@ -1,0 +1,29 @@
+
+.container { 
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px; 
+    justify-content: space-between;
+    margin-top: 25px;
+  }
+  .cards { 
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+    text-align:center; 
+    background: #fff; 
+    border: 2px solid black !important;
+
+  }
+  .cards h1, .cards p { 
+    margin: 8px 0; 
+  }
+  .img { 
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+    border-radius: 8px; 
+  }
+  @media (max-width: 768px) { .cards { width: 45%; } } @media (max-width: 480px) { .cards { width: 100%; } }
+  
